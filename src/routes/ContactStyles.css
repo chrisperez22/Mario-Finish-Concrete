@@ -1,0 +1,60 @@
+textarea {
+    width: 100%;
+    height: 100%;
+  }
+  .exam{
+    display: flex;
+  padding-bottom: 6%;
+  }
+  .con{
+   height: 450px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  
+  }
+  .contact{
+    border-width:3px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+  
+  }
+  .titl{
+    text-align: center;
+    padding-top: 210px;
+  }
+  .little{
+    text-align: center;
+    color: rgb(110, 109, 109);
+  }
+  .but{
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 47, 229);
+    padding: 5px;
+  }
+  form{
+    height: 450px;
+    
+  }
+  @media screen and (max-width: 940px){
+    .con{
+  width: 220px; 
+  height: auto;
+  
+   }
+   .exam{
+  padding-bottom: 20%;
+   }
+   form{
+    height: 540px;
+  
+   }
+   .titl{
+    padding-top: 170px;
+  }
+   
+  
+  }
+  
+  
